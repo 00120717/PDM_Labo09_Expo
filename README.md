@@ -2,8 +2,8 @@
 Exposicion sobre firebase
 
 Integrantes:
-Marvin Geovanni Ramirez Vides
-German Alexander Castro Portillo 
-Brenda Marcela Guerrero Diaz
-Daniel Alejandro Orozco Orellana
-Karina Daniela Mina Martinez
+Marvin Geovanni Ramirez Vides  Punto: Evaluado 2
+German Alexander Castro Portillo Punto: Evaluado 2
+Brenda Marcela Guerrero Diaz Punto: Evaluado 2
+Daniel Alejandro Orozco Orellana Punto: Evaluado 2
+Karina Daniela Mina Martinez Punto: Evaluado 2
