@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   
+    
+<H2>¿Que es Firebase Realtime Database?</H2>
+<p> es una base de datos alojada en la nube. Los datos se almacenan en formato JSON y se sincronizan en tiempo real con cada cliente conectado</p>
+
+<H3> <strong>Firebase Realtime Database</strong> </H3>
+<P>
+    Almacena y sincroniza datos con nuestra base de datos NoSQL alojada en la nube. 
+    Los datos se sincronizan con todos los clientes en tiempo real y se mantienen disponibles cuando la app no tiene conexión.
+</P>
+
+<h2> <em> <b>Funciones clave</b> </em> </h2>
+
+<ol>
+    <li>
+            <h3>  Tiempo Real:</h3>
+            <p>En lugar de solicitudes HTTP típicas, Firebase Realtime Database usa la sincronización de datos (cada vez que cambian los datos, 
+                los dispositivos conectados reciben esa actualización en milisegundos).</p>
+            
+    </li>
+    <li>
+            <h3>Sin conexión</h3>
+            <p> 	Las apps de Firebase continúan respondiendo, incluso sin conexión, dado que el SDK de Firebase Realtime Database hace que tus datos persistan en el disco.
+                 Cuando se restablece la conexión, el dispositivo cliente recibe los cambios que faltaban y los sincroniza con el estado actual del servidor. </p>
+            
+    </li>
+    <li>
+            <h3>Acceso desde dispositivos cliente</h3>
+            <p>Se puede acceder a Firebase Realtime Database directamente desde un dispositivo móvil o un navegador web; no se necesita un servidor de aplicaciones.</p>
+            
+    </li>
+
+    <li>
+            <h3>Escalamiento en varias bases de datos</h3>
+            <p>Podrás dividir la información en diversas instancias de bases de datos dentro del mismo proyecto de Firebase. 
+                Usa Firebase Authentication para optimizar el proceso de autenticación en el proyecto. Podrás autenticar a usuarios en varias instancias de la base de datos. 
+            </p>
+    </li>
+</ol>
+
+
+<h2>Ruta de Implementacion</h2>
+
+<ol>
+<li>
+    <h3>Integrar los SDK de Firebase Realtime Database</h3>
+    <p>Incluye clientes rápidamente mediante Gradle, CocoaPods o una secuencia de comandos.</p>
+
+</li>
+<li>
+    <h3>Crear referencias de Realtime Database</h3>
+    <p>Referencia a los datos JSON para establecer datos o suscribirte a cambios de datos.</p>
+</li>
+<li>
+    <h3>Configurar datos y detectar cambios</h3>
+    <p>Usar las referencias para escribir datos o suscribirte a cambios</p>
+</li>
+<li>
+    <h3>Habilitar la persistencia sin conexión</h3>
+    <p>Permite escribir los datos en el disco local del dispositivo para estar disponible sin conexión</p>
+</li>
+<li>
+    <h3>Proteger los datos</h3>
+    <p>Usar reglas de seguridad de Firebase Realtime Database para proteger los datos.</p>
+</li>
+    
+</ol>
+
+
+
+</body>
+</html>
